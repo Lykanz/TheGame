@@ -20,6 +20,7 @@ public class MonsterRoom : MonoBehaviour {
 
     void OnEnable()
     {
+        Debug.Log("Enabled");
         RandomiseValues();
         while (amountOfChests > 0)
         {
@@ -43,5 +44,7 @@ public class MonsterRoom : MonoBehaviour {
     {
         amountOfMonsters = Random.Range(0, 2);
         amountOfChests = Random.Range(0, 2);
+        Debug.Log(amountOfChests);
+        Debug.Log(amountOfMonsters);
     }
 }
