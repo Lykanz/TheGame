@@ -14,7 +14,6 @@ public class RoomGenerator : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    
 	}
 
     void GenerateDungeon()
@@ -30,5 +29,6 @@ public class RoomGenerator : MonoBehaviour {
     void GenerateRoom(RoomType _currentRoomType)
     {
         Debug.Log(_currentRoomType);
+
     }
 }
